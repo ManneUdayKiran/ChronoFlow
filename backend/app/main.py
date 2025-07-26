@@ -16,7 +16,7 @@ app = FastAPI(
 # Set up CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[str(origin) for origin in settings.BACKEND_CORS_ORIGINS],
+    allow_origins=["http://localhost:5173","http://localhost:5174","http://localhost:3000","http://localhost:4173","https://*.vercel.app","https://chronoflow-beta.vercel.app","https://chronoflow-4wfapkcrt-uday-kirans-projects-a417c70c.vercel.app"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
