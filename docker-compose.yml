@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # Backend API service
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=chronoflow
+      - HOST=0.0.0.0
+      - PORT=8000
+      - RELOAD=False
+      - BACKEND_CORS_ORIGINS=["http://localhost:5173","http://localhost:3000","http://frontend:5173"]
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - mongodb
+    networks:
+      - chronoflow-network
+    restart: unless-stopped
+
+  # Frontend service
+  frontend:
+    build: ./frontend-new
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend-new:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000/api/v1
+    networks:
+      - chronoflow-network
+    restart: unless-stopped
+
+  # MongoDB service
+  mongodb:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - chronoflow-network
+    restart: unless-stopped
+
+# Volumes
+volumes:
+  mongodb-data:
+
+# Networks
+networks:
+  chronoflow-network:
+    driver: bridge

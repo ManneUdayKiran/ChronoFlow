@@ -1,0 +1,183 @@
+.home-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.home-header {
+  padding: 20px 5vw;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  margin: 0;
+}
+
+.home-hero {
+  padding: 80px 5vw;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.home-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-hero-buttons {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.home-services {
+  padding: 80px 5vw;
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  margin: 0;
+}
+
+.home-services-header {
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.home-service-icon {
+  margin-bottom: 20px;
+}
+
+.home-features {
+  padding: 80px 5vw;
+  background: #f8f9fa;
+  width: 100%;
+  margin: 0;
+}
+
+.home-features-header {
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.home-feature-icon {
+  margin-bottom: 15px;
+}
+
+.home-cta {
+  padding: 80px 5vw;
+  text-align: center;
+  background: linear-gradient(135deg, #1890ff 0%, #722ed1 100%);
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+.home-footer {
+  padding: 40px 5vw;
+  background: #001529;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* Override Ant Design Row margins for full width */
+.home-container .ant-row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100%;
+}
+
+.home-container .ant-col {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.service-card {
+  height: 320px;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card {
+  height: 200px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background: white;
+}
+
+.home-title {
+  color: white;
+  margin: 0;
+}
+
+.hero-title {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+}
+
+.cta-button {
+  height: 50px;
+  font-size: 1.1rem;
+  background: #1890ff;
+  border-color: #1890ff;
+  box-shadow: 0 4px 15px rgba(24, 144, 255, 0.4);
+}
+
+.demo-button {
+  height: 50px;
+  font-size: 1.1rem;
+  color: white;
+  border-color: white;
+}
+
+.signup-button {
+  height: 50px;
+  font-size: 1.1rem;
+  background: white;
+  color: #1890ff;
+  border-color: white;
+  font-weight: bold;
+}
+
+.auth-button {
+  color: white;
+  border-color: white;
+}
+
+.service-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.services-intro {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.6);
+}

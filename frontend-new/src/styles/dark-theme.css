@@ -1,0 +1,310 @@
+/* Dark theme overrides */
+.dark {
+  color-scheme: dark;
+}
+
+.dark body {
+  background-color: #141414 !important;
+  color: #ffffff !important;
+}
+
+/* Dark theme specific styles for components */
+.dark .ant-layout {
+  background: #000000 !important;
+}
+
+.dark .ant-layout-header {
+  background: #1f1f1f !important;
+  border-bottom: 1px solid #434343 !important;
+}
+
+.dark .ant-layout-sider {
+  background: #1f1f1f !important;
+}
+
+.dark .ant-layout-content {
+  background: #141414 !important;
+}
+
+.dark .ant-menu {
+  background: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-menu-item {
+  color: #ffffff !important;
+}
+
+.dark .ant-menu-item:hover {
+  background: #262626 !important;
+}
+
+.dark .ant-menu-item-selected {
+  background: #1890ff !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-card {
+  background: #1f1f1f !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-card-head {
+  background: #1f1f1f !important;
+  border-bottom: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-card-body {
+  background: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-input {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-input:focus {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}
+
+.dark .ant-select-selector {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-select-dropdown {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-select-item {
+  color: #ffffff !important;
+}
+
+.dark .ant-select-item:hover {
+  background: #1890ff !important;
+}
+
+.dark .ant-btn {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-btn:hover {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+}
+
+.dark .ant-btn-primary {
+  background: #1890ff !important;
+  border-color: #1890ff !important;
+}
+
+.dark .ant-tabs-tab {
+  color: #ffffff !important;
+}
+
+.dark .ant-tabs-tab:hover {
+  color: #1890ff !important;
+}
+
+.dark .ant-tabs-tab-active {
+  color: #1890ff !important;
+}
+
+.dark .ant-tabs-content-holder {
+  background: transparent !important;
+}
+
+.dark .ant-form-item-label > label {
+  color: #ffffff !important;
+}
+
+.dark .ant-typography {
+  color: #ffffff !important;
+}
+
+.dark .ant-typography h1,
+.dark .ant-typography h2,
+.dark .ant-typography h3,
+.dark .ant-typography h4,
+.dark .ant-typography h5 {
+  color: #ffffff !important;
+}
+
+.dark .ant-divider {
+  border-color: #434343 !important;
+}
+
+.dark .ant-switch {
+  background: #262626 !important;
+}
+
+.dark .ant-switch-checked {
+  background: #1890ff !important;
+}
+
+.dark .ant-notification-notice {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-notification-notice-message {
+  color: #ffffff !important;
+}
+
+.dark .ant-notification-notice-description {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+/* AI Scheduler specific dark theme styles */
+.dark .ant-timeline-item-head {
+  background: #262626 !important;
+  border: 2px solid #434343 !important;
+}
+
+.dark .ant-timeline-item-content {
+  color: #ffffff !important;
+}
+
+.dark .ant-progress-text {
+  color: #ffffff !important;
+}
+
+.dark .ant-statistic-title {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.dark .ant-statistic-content {
+  color: #ffffff !important;
+}
+
+.dark .ant-badge {
+  color: #ffffff !important;
+}
+
+.dark .ant-tag {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-list-item {
+  border-bottom: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-alert {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-alert-message {
+  color: #ffffff !important;
+}
+
+.dark .ant-alert-description {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+/* Modal dark theme */
+.dark .ant-modal-content {
+  background: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-modal-header {
+  background: #1f1f1f !important;
+  border-bottom: 1px solid #434343 !important;
+}
+
+.dark .ant-modal-title {
+  color: #ffffff !important;
+}
+
+.dark .ant-modal-footer {
+  background: #1f1f1f !important;
+  border-top: 1px solid #434343 !important;
+}
+
+/* Date Picker dark theme */
+.dark .ant-picker {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-picker-dropdown {
+  background: #262626 !important;
+}
+
+.dark .ant-picker-panel {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-picker-cell {
+  color: #ffffff !important;
+}
+
+.dark .ant-picker-cell:hover {
+  background: #1890ff !important;
+}
+
+/* Time Picker dark theme */
+.dark .ant-time-picker {
+  background: #262626 !important;
+  border: 1px solid #434343 !important;
+}
+
+.dark .ant-time-picker-panel {
+  background: #262626 !important;
+}
+
+.dark .ant-time-picker-panel-column {
+  background: #262626 !important;
+}
+
+.dark .ant-time-picker-panel-column li {
+  color: #ffffff !important;
+}
+
+.dark .ant-time-picker-panel-column li:hover {
+  background: #1890ff !important;
+}
+
+/* Spin (Loading) dark theme */
+.dark .ant-spin {
+  color: #1890ff !important;
+}
+
+.dark .ant-spin-text {
+  color: #ffffff !important;
+}
+
+/* Table dark theme if used */
+.dark .ant-table {
+  background: #1f1f1f !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-table-thead > tr > th {
+  background: #262626 !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #434343 !important;
+}
+
+.dark .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #434343 !important;
+  color: #ffffff !important;
+}
+
+.dark .ant-table-tbody > tr:hover > td {
+  background: #262626 !important;
+}

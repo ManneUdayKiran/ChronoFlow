@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Outer circle (clock face) -->
+  <circle cx="32" cy="32" r="30" fill="#1890FF" stroke="#096DD9" stroke-width="2"/>
+  
+  <!-- Inner circle -->
+  <circle cx="32" cy="32" r="27" fill="white" fill-opacity="0.9"/>
+  
+  <!-- Clock hands container -->
+  <g transform="rotate(-45, 32, 32)">
+    <!-- Hour hand -->
+    <rect x="31" y="18" width="2" height="14" rx="1" fill="#262626"/>
+    
+    <!-- Minute hand -->
+    <rect x="31" y="14" width="2" height="18" rx="1" fill="#1890FF"/>
+  </g>
+  
+  <!-- Clock center -->
+  <circle cx="32" cy="32" r="2" fill="#1890FF"/>
+  
+  <!-- Clock markings -->
+  <rect x="31" y="4" width="2" height="6" rx="1" fill="#262626"/>
+  <rect x="31" y="54" width="2" height="6" rx="1" fill="#262626"/>
+  <rect x="54" y="31" width="6" height="2" rx="1" fill="#262626"/>
+  <rect x="4" y="31" width="6" height="2" rx="1" fill="#262626"/>
+  
+  <!-- Checkmark for task completion -->
+  <path d="M20 38L26 44L44 26" stroke="#52C41A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
